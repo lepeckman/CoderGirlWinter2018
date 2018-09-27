@@ -79,6 +79,16 @@ public class multidimensionalTemperatures {
             }
 
 
+        out.println(" ");
+        out.println("Temperature Calculator: ");
+        out.println(" ");
+        out.println("The data provided are: ");
+        out.println("7 AM: 68, 70, 76, 70, 68, 71, 75");
+        out.println("3 PM: 76, 76, 87, 84, 82, 75, 83");
+        out.println("7 PM: 73, 72, 81, 78, 76, 73, 77");
+        out.println("3 AM: 64, 65, 69, 68, 70, 74, 72");
+        out.println(" ");
+
         out.println("The Average temperature on Sunday was: " + sumColumnSun/grid.length);
         out.println("The Average temperature on Monday was: " + sumColumnMon/grid.length);
         out.println("The Average temperature on Tuesday was: " + sumColumnTues/grid.length);
